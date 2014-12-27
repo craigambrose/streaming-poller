@@ -1,0 +1,34 @@
+{
+  "name": "streaming-poller",
+  "version": "0.0.1",
+  "description": "A stream that executes another stream at regular intervals",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --compilers coffee:coffee-script/register test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craigambrose/streaming-poller.git"
+  },
+  "keywords": [
+    "stream",
+    "stream2",
+    "polling"
+  ],
+  "author": "Craig Ambrose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigambrose/streaming-poller/issues"
+  },
+  "homepage": "https://github.com/craigambrose/streaming-poller",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "stream-array": "^1.0.1"
+  },
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "pauseable": "^0.1.2",
+    "through2": "^0.6.3"
+  }
+}
